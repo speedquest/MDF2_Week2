@@ -78,21 +78,19 @@
                                                                       NSHTTPURLResponse *urlResponse,
                                                                       NSError *error)
                                   {
+                                      //  If a valid web connection is made
                                       if ([urlResponse statusCode] ==200)
                                       {
                                           NSError *jsonError = nil;
                                           twitterText = [NSJSONSerialization JSONObjectWithData:responseData
                                                                               options:0
                                                                               error:&jsonError];
-                                          
                                           [twitterTableView reloadData];
-                                          [UIView beginAnimations:nil context:nil];
-                                        
-                                          loadingTweetsScreen.frame = CGRectMake(0.0f, 480.0f, loadingTweetsScreen.frame.size.width, loadingTweetsScreen.frame.size.height);
-                                           
+                                          
+                                          // Dismiss the 'Wait' dialog screen
                                           [self dismissLoadingPopup];
                                           
-
+                                          //  If there is valid data log it out for test
                                           if (twitterText != nil)
                                           {
                                               NSDictionary *tweetItem = [twitterText objectAtIndex:0];
@@ -100,9 +98,7 @@
                                               {
                                                   NSLog(@"%@", [twitterText description]);
                                                   
-                                                  //NSLog(@"%@", tweetItem);
                                               }
-                                              // NSLog(@"%@", info);
                                           }
                                       }
                                       
