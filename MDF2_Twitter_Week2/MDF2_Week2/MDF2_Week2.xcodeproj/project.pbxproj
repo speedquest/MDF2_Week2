@@ -20,6 +20,16 @@
 		A46004F41640398C007DFF47 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A46004F21640398C007DFF47 /* ViewController.xib */; };
 		A46004FC16403B7F007DFF47 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46004FB16403B7F007DFF47 /* Accounts.framework */; };
 		A46004FE1640590D007DFF47 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46004FD1640590D007DFF47 /* Twitter.framework */; };
+		A4600506164074B5007DFF47 /* CustomCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4600503164074B5007DFF47 /* CustomCellView.xib */; };
+		A4600507164074B5007DFF47 /* CustomCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4600504164074B5007DFF47 /* CustomCellView.m */; };
+		A460050D16407A8B007DFF47 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A460050A16407A8B007DFF47 /* DetailViewController.xib */; };
+		A460050E16407A8B007DFF47 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A460050B16407A8B007DFF47 /* DetailViewController.m */; };
+		A460051E1640CD1C007DFF47 /* UserProfileView.m in Sources */ = {isa = PBXBuildFile; fileRef = A460051C1640CD1C007DFF47 /* UserProfileView.m */; };
+		A460051F1640CD1C007DFF47 /* UserProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A460051D1640CD1C007DFF47 /* UserProfileView.xib */; };
+		A4A97F9016418E970085DE9D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A97F8F16418E970085DE9D /* Default@2x.png */; };
+		A4A97F9416418FE70085DE9D /* twitter_this_splash.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A97F9316418FE70085DE9D /* twitter_this_splash.png */; };
+		A4A97F96164196490085DE9D /* twitter_this_icon_114.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A97F95164196490085DE9D /* twitter_this_icon_114.png */; };
+		A4A97F981641965C0085DE9D /* twitter_this_icon_114.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A97F971641965C0085DE9D /* twitter_this_icon_114.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +51,19 @@
 		A46004F31640398C007DFF47 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		A46004FB16403B7F007DFF47 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		A46004FD1640590D007DFF47 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		A4600503164074B5007DFF47 /* CustomCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomCellView.xib; path = ../CustomCellView.xib; sourceTree = "<group>"; };
+		A4600504164074B5007DFF47 /* CustomCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomCellView.m; path = ../CustomCellView.m; sourceTree = "<group>"; };
+		A4600505164074B5007DFF47 /* CustomCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomCellView.h; path = ../CustomCellView.h; sourceTree = "<group>"; };
+		A460050A16407A8B007DFF47 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetailViewController.xib; path = ../DetailViewController.xib; sourceTree = "<group>"; };
+		A460050B16407A8B007DFF47 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ../DetailViewController.m; sourceTree = "<group>"; };
+		A460050C16407A8B007DFF47 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ../DetailViewController.h; sourceTree = "<group>"; };
+		A460051B1640CD1C007DFF47 /* UserProfileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserProfileView.h; path = ../UserProfileView.h; sourceTree = "<group>"; };
+		A460051C1640CD1C007DFF47 /* UserProfileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserProfileView.m; path = ../UserProfileView.m; sourceTree = "<group>"; };
+		A460051D1640CD1C007DFF47 /* UserProfileView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UserProfileView.xib; path = ../UserProfileView.xib; sourceTree = "<group>"; };
+		A4A97F8F16418E970085DE9D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A4A97F9316418FE70085DE9D /* twitter_this_splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter_this_splash.png; sourceTree = "<group>"; };
+		A4A97F95164196490085DE9D /* twitter_this_icon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter_this_icon_114.png; sourceTree = "<group>"; };
+		A4A97F971641965C0085DE9D /* twitter_this_icon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter_this_icon_114.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +85,8 @@
 		A46004C81640398C007DFF47 = {
 			isa = PBXGroup;
 			children = (
+				A4A97F971641965C0085DE9D /* twitter_this_icon_114.png */,
+				A4A97F8F16418E970085DE9D /* Default@2x.png */,
 				A46004DD1640398C007DFF47 /* MDF2_Week2 */,
 				A46004D61640398C007DFF47 /* Frameworks */,
 				A46004D41640398C007DFF47 /* Products */,
@@ -91,11 +116,22 @@
 		A46004DD1640398C007DFF47 /* MDF2_Week2 */ = {
 			isa = PBXGroup;
 			children = (
+				A4A97F95164196490085DE9D /* twitter_this_icon_114.png */,
+				A4A97F9316418FE70085DE9D /* twitter_this_splash.png */,
 				A46004E61640398C007DFF47 /* AppDelegate.h */,
 				A46004E71640398C007DFF47 /* AppDelegate.m */,
 				A46004EF1640398C007DFF47 /* ViewController.h */,
 				A46004F01640398C007DFF47 /* ViewController.m */,
 				A46004F21640398C007DFF47 /* ViewController.xib */,
+				A4600505164074B5007DFF47 /* CustomCellView.h */,
+				A4600504164074B5007DFF47 /* CustomCellView.m */,
+				A4600503164074B5007DFF47 /* CustomCellView.xib */,
+				A460050C16407A8B007DFF47 /* DetailViewController.h */,
+				A460050B16407A8B007DFF47 /* DetailViewController.m */,
+				A460050A16407A8B007DFF47 /* DetailViewController.xib */,
+				A460051B1640CD1C007DFF47 /* UserProfileView.h */,
+				A460051C1640CD1C007DFF47 /* UserProfileView.m */,
+				A460051D1640CD1C007DFF47 /* UserProfileView.xib */,
 				A46004DE1640398C007DFF47 /* Supporting Files */,
 			);
 			path = MDF2_Week2;
@@ -171,6 +207,13 @@
 				A46004EC1640398C007DFF47 /* Default@2x.png in Resources */,
 				A46004EE1640398C007DFF47 /* Default-568h@2x.png in Resources */,
 				A46004F41640398C007DFF47 /* ViewController.xib in Resources */,
+				A4600506164074B5007DFF47 /* CustomCellView.xib in Resources */,
+				A460050D16407A8B007DFF47 /* DetailViewController.xib in Resources */,
+				A460051F1640CD1C007DFF47 /* UserProfileView.xib in Resources */,
+				A4A97F9016418E970085DE9D /* Default@2x.png in Resources */,
+				A4A97F9416418FE70085DE9D /* twitter_this_splash.png in Resources */,
+				A4A97F96164196490085DE9D /* twitter_this_icon_114.png in Resources */,
+				A4A97F981641965C0085DE9D /* twitter_this_icon_114.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +227,9 @@
 				A46004E41640398C007DFF47 /* main.m in Sources */,
 				A46004E81640398C007DFF47 /* AppDelegate.m in Sources */,
 				A46004F11640398C007DFF47 /* ViewController.m in Sources */,
+				A4600507164074B5007DFF47 /* CustomCellView.m in Sources */,
+				A460050E16407A8B007DFF47 /* DetailViewController.m in Sources */,
+				A460051E1640CD1C007DFF47 /* UserProfileView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +352,7 @@
 				A46004F91640398C007DFF47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

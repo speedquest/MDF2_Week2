@@ -8,8 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+{
+    
+    IBOutlet UITableView *twitterTableView;
+    NSArray *twitterText;
+    NSString *timeOfTweet;
+    UIView *loading;
+    __weak IBOutlet UIView *loadingTweetsScreen;
+    UIActivityIndicatorView *waitingIcon;
 
-@property (weak, nonatomic) IBOutlet UITableView *twitterTableView;
+}
+@property (strong, nonatomic) IBOutlet UITableView *twitterTableView;
+@property (strong, atomic) NSArray *twitterText;
+@property (strong, atomic) NSString *twitterTime;
 
 @end
